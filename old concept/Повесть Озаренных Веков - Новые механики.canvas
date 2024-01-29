@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"da9a97c942ae4eff","x":-320,"y":-220,"width":250,"height":60,"type":"text","text":"Локации"},
+		{"id":"6b6baf1641b943de","x":-513,"y":-5,"width":250,"height":60,"type":"text","text":"Игровой уровень"},
+		{"id":"bbae8f6f67eb368e","x":-101,"y":21,"width":250,"height":60,"type":"text","text":"Теночтитлан"},
+		{"id":"d12ab8925c9ec56b","x":-519,"y":226,"width":250,"height":60,"type":"text","text":"Блок\n\nФундаментальная единица игрового мира."},
+		{"id":"67e5738e254c6431","x":-517,"y":407,"width":250,"height":60,"type":"text","text":"Виды блоков"}
+	],
+	"edges":[
+		{"id":"b1139ab595366cf9","fromNode":"da9a97c942ae4eff","fromSide":"bottom","toNode":"6b6baf1641b943de","toSide":"top"},
+		{"id":"238a5579a65555d5","fromNode":"da9a97c942ae4eff","fromSide":"bottom","toNode":"bbae8f6f67eb368e","toSide":"top"},
+		{"id":"ac612fa3721c8e33","fromNode":"6b6baf1641b943de","fromSide":"bottom","toNode":"d12ab8925c9ec56b","toSide":"top","label":"состоит из"},
+		{"id":"2f8a7645ec195b13","fromNode":"d12ab8925c9ec56b","fromSide":"bottom","toNode":"67e5738e254c6431","toSide":"top","label":"делится на"}
+	]
+}
