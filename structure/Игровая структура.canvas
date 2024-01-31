@@ -11,7 +11,7 @@
 		{"id":"82a3b77eee063d89","type":"file","file":"tsa-wiki/structure/tile/Мостовая плитка.md","x":-1680,"y":3180,"width":400,"height":400},
 		{"id":"168e3d286e70b848","type":"file","file":"tsa-wiki/structure/tile/Плитка с эффектом.md","x":-1040,"y":3180,"width":400,"height":400},
 		{"id":"bbcaca37fab5e377","type":"file","file":"tsa-wiki/structure/resource/Виды ресурсов.md","x":-3480,"y":3180,"width":400,"height":400},
-		{"id":"b40212e738c39159","x":-4440,"y":3180,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/equipment/Реликвия.md"},
+		{"id":"b40212e738c39159","x":-4440,"y":3180,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/equipment/Артефакт.md"},
 		{"id":"d841620a6ae7d82d","type":"file","file":"tsa-wiki/structure/mob/Моб.md","x":-4440,"y":1920,"width":400,"height":400},
 		{"id":"afed904165827ad0","x":-5400,"y":2500,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/mob/Виды мобов.md"}
 	],
