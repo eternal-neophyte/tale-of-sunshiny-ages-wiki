@@ -19,7 +19,8 @@
 		{"id":"afed904165827ad0","type":"file","file":"tsa-wiki/structure/mob/Виды мобов.md","x":-1200,"y":2600,"width":400,"height":400,"color":"5"},
 		{"id":"b5af1c6ac48c6c1d","type":"file","file":"tsa-wiki/structure/player/Особые качества.md","x":680,"y":2400,"width":400,"height":400},
 		{"id":"1e60072c871ae438","type":"file","file":"tsa-wiki/structure/player/Физические параметры.md","x":1520,"y":2600,"width":400,"height":400},
-		{"id":"fd3375b8f883548c","x":-3880,"y":1800,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/object/Загадка.md"}
+		{"id":"fd3375b8f883548c","type":"file","file":"tsa-wiki/structure/object/Загадка.md","x":-3880,"y":1800,"width":400,"height":400},
+		{"id":"730a289bc956bfe7","x":-121,"y":2108,"width":400,"height":400,"color":"3","type":"file","file":"tsa-wiki/structure/resource/Вечное слово.md"}
 	],
 	"edges":[
 		{"id":"19bb5aec2c6b81a3","fromNode":"089c845bae943ffd","fromSide":"bottom","toNode":"ebe50767248e4e54","toSide":"top","label":"делится на"},
@@ -43,6 +44,7 @@
 		{"id":"4dc8b7265b3fb892","fromNode":"b40212e738c39159","fromSide":"top","toNode":"1e60072c871ae438","toSide":"bottom","label":"имеет в качестве\nвторичных параметров"},
 		{"id":"865615818b742de5","fromNode":"8155b571861080f0","fromSide":"left","toNode":"c03893b988ba727b","toSide":"right","label":"дает доступ к"},
 		{"id":"79b2a2f4d5cfea66","fromNode":"d10ceec69d7dfcf8","fromSide":"top","toNode":"8155b571861080f0","toSide":"bottom","label":"имеет 15"},
-		{"id":"2309f5c6550f054a","fromNode":"c03893b988ba727b","fromSide":"bottom","toNode":"fd3375b8f883548c","toSide":"top","label":"содержит"}
+		{"id":"2309f5c6550f054a","fromNode":"c03893b988ba727b","fromSide":"bottom","toNode":"fd3375b8f883548c","toSide":"top","label":"содержит"},
+		{"id":"d842f3fd0d085a79","fromNode":"d841620a6ae7d82d","fromSide":"bottom","toNode":"730a289bc956bfe7","toSide":"left","label":"служит источником\nвыпадения"}
 	]
 }
