@@ -31,7 +31,8 @@
 		{"id":"b5af1c6ac48c6c1d","type":"file","file":"tsa-wiki/structure/player/Особые качества.md","x":2160,"y":1590,"width":400,"height":400},
 		{"id":"ff0b14b461ba7583","x":2160,"y":-160,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/battle/Виды атак.md"},
 		{"id":"1e60072c871ae438","type":"file","file":"tsa-wiki/structure/player/Физические параметры.md","x":1200,"y":1920,"width":400,"height":400},
-		{"id":"36542feee205b358","x":1000,"y":-160,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/battle/Атакующая комбинация.md"}
+		{"id":"36542feee205b358","x":1000,"y":-160,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/battle/Атакующая комбинация.md"},
+		{"id":"9f49f7b7a3c18768","x":480,"y":1590,"width":400,"height":400,"color":"6","type":"file","file":"tsa-wiki/structure/object/Виды загадок.md"}
 	],
 	"edges":[
 		{"id":"19bb5aec2c6b81a3","fromNode":"089c845bae943ffd","fromSide":"bottom","toNode":"ebe50767248e4e54","toSide":"top","label":"делится на"},
@@ -76,6 +77,7 @@
 		{"id":"bec3ef94ff8a13c8","fromNode":"d841620a6ae7d82d","fromSide":"right","toNode":"b9d1323742469289","toSide":"left","label":"может вступить в"},
 		{"id":"d77624163f81431b","fromNode":"d10ceec69d7dfcf8","fromSide":"left","toNode":"b9d1323742469289","toSide":"right","label":"может вступить в"},
 		{"id":"1c5394782e15d4a1","fromNode":"ff0b14b461ba7583","fromSide":"left","toNode":"36542feee205b358","toSide":"right","label":"составляют"},
-		{"id":"53823d0bae7398bb","fromNode":"36542feee205b358","fromSide":"left","toNode":"b9d1323742469289","toSide":"right","label":"используется в"}
+		{"id":"53823d0bae7398bb","fromNode":"36542feee205b358","fromSide":"left","toNode":"b9d1323742469289","toSide":"right","label":"используется в"},
+		{"id":"29ce635d2267227b","fromNode":"fd3375b8f883548c","fromSide":"right","toNode":"9f49f7b7a3c18768","toSide":"left","label":"разделяются\nна"}
 	]
 }
