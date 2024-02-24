@@ -27,7 +27,7 @@
 		{"id":"730a289bc956bfe7","type":"file","file":"tsa-wiki/structure/resource/Вечное слово.md","x":-1080,"y":1991,"width":400,"height":400,"color":"3"},
 		{"id":"b9d1323742469289","x":-240,"y":-160,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/battle/Бой.md"},
 		{"id":"8155b571861080f0","type":"file","file":"tsa-wiki/structure/resource/Доверенная печать Вершителя Судьбы.md","x":-1920,"y":620,"width":400,"height":400,"color":"3"},
-		{"id":"d10ceec69d7dfcf8","type":"file","file":"tsa-wiki/structure/player/Игрок (управляемый персонаж).md","x":560,"y":620,"width":400,"height":400,"color":"5"},
+		{"id":"d10ceec69d7dfcf8","type":"file","file":"tsa-wiki/structure/player/Игровой персонаж.md","x":560,"y":620,"width":400,"height":400,"color":"5"},
 		{"id":"b5af1c6ac48c6c1d","type":"file","file":"tsa-wiki/structure/player/Особые качества.md","x":2160,"y":1590,"width":400,"height":400},
 		{"id":"ff0b14b461ba7583","x":2160,"y":-160,"width":400,"height":400,"type":"file","file":"tsa-wiki/structure/battle/Виды атак.md"},
 		{"id":"1e60072c871ae438","type":"file","file":"tsa-wiki/structure/player/Физические параметры.md","x":1200,"y":1920,"width":400,"height":400},
