@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"0d4d74b34c92c521","x":-620,"y":1059,"width":250,"height":101,"type":"text","text":"AbsolutePositive\n\n=apply"},
+		{"id":"9ae228a4800fd6ae","x":-221,"y":1059,"width":250,"height":121,"type":"text","text":"RandomPercentile\n\n= boolean shouldBeApplied - вычисляется с рандомом"},
+		{"id":"8efbf19a6b55fa1a","x":-431,"y":800,"width":251,"height":140,"type":"text","text":"Attribute\n- value\n- constraint. Например, value >= 0 && value <= 100"},
+		{"id":"2acdc199e15ade9d","x":-287,"y":-500,"width":250,"height":234,"type":"text","text":"StatModule\n- ID (enum). Будет нужен для поиска модуля, чтобы применить к нему эффекты\n- orderToApply\n\n= visualize()"},
+		{"id":"8f6fa82f9cd2505f","x":506,"y":-74,"width":250,"height":60,"type":"text","text":"TurnOrderingModule"},
+		{"id":"ec28348a209811bd","x":297,"y":92,"width":250,"height":60,"type":"text","text":"StaticOrderModule"},
+		{"id":"a6265fed4aa37d96","x":659,"y":122,"width":250,"height":60,"type":"text","text":"SpeedModule"},
+		{"id":"f3de16018fd74161","x":85,"y":-860,"width":250,"height":143,"type":"text","text":"Effect\n\n=apply"},
+		{"id":"8385fa382abe4baf","x":600,"y":-860,"width":250,"height":221,"type":"text","text":"Skill\n\n=Effect release"},
+		{"id":"7ec170648cc628da","x":414,"y":-439,"width":250,"height":173,"type":"text","text":"Buff ..."},
+		{"id":"899c280cc61a3a85","x":-1580,"y":83,"width":250,"height":233,"type":"text","text":"**CritModule**\n- chance\n- damage"},
+		{"id":"16694b4f6e20c374","x":-1233,"y":83,"width":250,"height":173,"type":"text","text":"AttackModule\n- attack"},
+		{"id":"f42cf9baf7fc7582","x":-1420,"y":-104,"width":250,"height":60,"type":"text","text":"**OutputDamageModule**"},
+		{"id":"962e03d0a5c565c7","x":-305,"y":-39,"width":250,"height":60,"type":"text","text":"InputControlModule"},
+		{"id":"77c4262bea0830ad","x":-681,"y":200,"width":250,"height":168,"type":"text","text":"EvasionModule\n- chance"},
+		{"id":"851873a31de36069","x":-340,"y":226,"width":250,"height":60,"type":"text","text":"HpModule"},
+		{"id":"33fa40795c8384a3","x":-37,"y":338,"width":250,"height":60,"type":"text","text":"DefenceModule"},
+		{"id":"ec0f3a81404c066e","x":320,"y":338,"width":250,"height":182,"type":"text","text":"ResistModule\n- damageType"},
+		{"id":"24b001fec7e539e0","x":1060,"y":-860,"width":250,"height":218,"type":"text","text":"DamageType"}
+	],
+	"edges":[
+		{"id":"37cc332fbdef64b8","fromNode":"f42cf9baf7fc7582","fromSide":"bottom","toNode":"899c280cc61a3a85","toSide":"top"},
+		{"id":"cd4a3b17f00b6e93","fromNode":"f42cf9baf7fc7582","fromSide":"bottom","toNode":"16694b4f6e20c374","toSide":"top"},
+		{"id":"46b7be2134cd957e","fromNode":"962e03d0a5c565c7","fromSide":"bottom","toNode":"77c4262bea0830ad","toSide":"top"},
+		{"id":"261a080fea183a80","fromNode":"8efbf19a6b55fa1a","fromSide":"bottom","toNode":"0d4d74b34c92c521","toSide":"top"},
+		{"id":"7bc87ed4ba7bc568","fromNode":"8efbf19a6b55fa1a","fromSide":"bottom","toNode":"9ae228a4800fd6ae","toSide":"top"},
+		{"id":"94da8129b0ac9b15","fromNode":"2acdc199e15ade9d","fromSide":"bottom","toNode":"f42cf9baf7fc7582","toSide":"top"},
+		{"id":"9567c495ec2833be","fromNode":"2acdc199e15ade9d","fromSide":"bottom","toNode":"962e03d0a5c565c7","toSide":"top"},
+		{"id":"3cd555d10b4227e2","fromNode":"2acdc199e15ade9d","fromSide":"bottom","toNode":"8f6fa82f9cd2505f","toSide":"top"},
+		{"id":"e776f402a758640c","fromNode":"8f6fa82f9cd2505f","fromSide":"bottom","toNode":"ec28348a209811bd","toSide":"top"},
+		{"id":"308589fe52aa9c18","fromNode":"8f6fa82f9cd2505f","fromSide":"bottom","toNode":"a6265fed4aa37d96","toSide":"top"},
+		{"id":"6d8948398f2e8086","fromNode":"f3de16018fd74161","fromSide":"bottom","toNode":"2acdc199e15ade9d","toSide":"top"},
+		{"id":"9f7ddd61d8f5c8e2","fromNode":"f3de16018fd74161","fromSide":"bottom","toNode":"7ec170648cc628da","toSide":"top"},
+		{"id":"14b60854a6043d71","fromNode":"962e03d0a5c565c7","fromSide":"bottom","toNode":"851873a31de36069","toSide":"top"},
+		{"id":"a5c9f39dd84584b6","fromNode":"962e03d0a5c565c7","fromSide":"bottom","toNode":"33fa40795c8384a3","toSide":"top"},
+		{"id":"09a7b8f94f6dd242","fromNode":"962e03d0a5c565c7","fromSide":"bottom","toNode":"ec0f3a81404c066e","toSide":"top"}
+	]
+}
